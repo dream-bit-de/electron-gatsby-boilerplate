@@ -2,7 +2,7 @@
   "name": "@dream-bit-de/electron-gatsby-boilerplate",
   "version": "1.0.0",
   "description": "Stop using monolithic config setups, start developing! This Repo will give you a Kick-Start with the help of Gatsby.",
-  "main": "./electron-app/app-prod.js",
+  "main": "./dist/app-prod.js",
   "scripts": {
     "build:client": "gatsby clean && cross-env NODE_ENV=production gatsby build",
     "build:electron-compile": "cross-env NODE_ENV=production webpack --config ./electron-webpack-prod.js",
@@ -23,6 +23,9 @@
   "build": {
     "appId": "com.Elgabo.app",
     "productName": "Elgabo - Electron + Gatsby + Boilerplate",
+    "extraMetadata": {
+      "main": "dist/app-prod.js"
+    },
     "files": [
       "public/**/*",
       "dist/app-prod.js"
