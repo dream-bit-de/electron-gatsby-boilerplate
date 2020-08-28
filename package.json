@@ -2,13 +2,16 @@
   "name": "@dream-bit-de/electron-gatsby-boilerplate",
   "version": "1.0.0",
   "description": "Stop using monolithic config setups, start developing! This Repo will give you a Kick-Start with the help of Gatsby.",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "./dist/app-prod.js",
   "scripts": {
     "build:client": "gatsby clean && cross-env NODE_ENV=production gatsby build",
     "build:electron-compile": "cross-env NODE_ENV=production webpack --config ./electron-webpack-prod.js",
     "build:electron-package": "cross-env NODE_ENV=production electron-builder",
     "build:electron": "npm run build:electron-compile && npm run build:electron-package",
-    "build": "concurrently \"npm run build:client\" \"npm run build:electron\"",
+    "build": "npm run build:client && npm run build:electron",
     "dev:client": "cross-env NODE_ENV=development gatsby develop",
     "dev:electron-compile": "webpack --config ./electron-webpack-dev.js",
     "dev:electron-run": "cross-env wait-on http://localhost:8000 && npx electron ./dist/app-dev.js",
