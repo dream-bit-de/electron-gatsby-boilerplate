@@ -7,6 +7,8 @@ import { BrowserWindow } from 'electron';
 import serve from 'electron-serve';
 import { PRODUCTION, PLATFORM } from '../node-process';
 
+const loadURL = serve({ directory: 'public' });
+
 async function create(win, options) {
   // eslint-disable-next-line no-param-reassign
   win = new BrowserWindow(options);
@@ -17,10 +19,8 @@ async function create(win, options) {
     win.webContents.openDevTools();
     // Open the DevTools.
   } else {
-    const loadURL = serve({ directory: 'public' });
     loadURL(win);
   }
-
 }
 
 async function allClosed(app) {
