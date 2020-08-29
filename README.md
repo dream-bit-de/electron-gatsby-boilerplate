@@ -1,24 +1,62 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-  <a href="https://www.electronjs.org/">
-  <svg class="site-header-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <g stroke="none" fill="none" fill-rule="evenodd">
-          <path class="svg-stroke" d="M11.7014354,7.72646259 C7.91761319,7.04380371 4.81334929,7.69369948 3.61536899,9.74908711 C2.72656361,11.27402 3.03878853,13.3122813 4.27551338,15.4489979 M6.32642733,18.1886712 C7.89193828,19.8928217 9.9666792,21.548102 12.4120986,22.9466461 C18.2414315,26.2804624 24.2930499,27.0779063 27.1669222,25.1368228 M29.8456419,24.0565148 C29.8456419,23.1971812 29.1423799,22.5005537 28.2748621,22.5005537 C27.4073444,22.5005537 26.7040823,23.1971812 26.7040823,24.0565148 C26.7040823,24.9158484 27.4073444,25.612476 28.2748621,25.612476 C29.1423799,25.612476 29.8456419,24.9158484 29.8456419,24.0565148 L29.8456419,24.0565148 Z"></path>
-          <path class="svg-stroke" d="M26.1017264,17.699802 C28.5790274,14.8008665 29.5563892,11.8210699 28.3609038,9.7699627 C27.4866535,8.27000212 25.5971843,7.51855661 23.1692624,7.48727915 M19.6970573,7.86083838 C17.4054295,8.34719767 14.8948834,9.30454988 12.424266,10.7175048 C6.42288792,14.1497143 2.65401611,19.1281832 3.16552768,22.580522 M3.68501877,25.612476 C4.5525365,25.612476 5.25579857,24.9158484 5.25579857,24.0565148 C5.25579857,23.1971812 4.5525365,22.5005537 3.68501877,22.5005537 C2.81750104,22.5005537 2.11423897,23.1971812 2.11423897,24.0565148 C2.11423897,24.9158484 2.81750104,25.612476 3.68501877,25.612476 L3.68501877,25.612476 L3.68501877,25.612476 Z"></path>
-          <path class="svg-stroke" d="M10.1856596,25.0699995 C11.480995,28.6529192 13.5999849,30.9876144 15.99422,30.9876144 C17.7292778,30.9876144 19.3197869,29.7615184 20.5570359,27.7228112 M22.0509221,24.3364015 C22.7373456,22.1635452 23.1341282,19.5948285 23.1341282,16.8425133 C23.1341282,10.0879866 20.7444131,4.43922457 17.5485944,3.03357113 M15.99422,4.25337326 C16.8617378,4.25337326 17.5649998,3.55674574 17.5649998,2.69741214 C17.5649998,1.83807854 16.8617378,1.14145101 15.99422,1.14145101 C15.1267023,1.14145101 14.4234402,1.83807854 14.4234402,2.69741214 C14.4234402,3.55674574 15.1267023,4.25337326 15.99422,4.25337326 Z"></path>
-          <path class="svg-fill" d="M16.2975137,18.2334955 C15.5219407,18.3994908 14.7578457,17.9112502 14.5899415,17.142994 C14.4226932,16.3747378 14.9152558,15.6178512 15.6908287,15.451531 C16.4664016,15.2855357 17.2304967,15.7737763 17.3984009,16.5420325 C17.5659771,17.3102887 17.0730866,18.0671753 16.2975137,18.2334955 Z"></path>
-        </g>
-      </svg>
-  </a>
+<a href="https://www.electronjs.org">
+  <img alt="Gatsby" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F91%2FElectron_Software_Framework_Logo.svg%2F1200px-Electron_Software_Framework_Logo.svg.png&f=1&nofb=1" width="35" />
+</a>
+<b style="font-size:1.5rem;">+</b>
+<a href="https://www.electronjs.org">
+  <img alt="Gatsby" src="https://camo.githubusercontent.com/c82d5dbe0efc4f71771b4c656fd96b91d6103a8d/68747470733a2f2f7777772e6761747362796a732e636f6d2f4761747362792d4d6f6e6f6772616d2e737667" width="35" />
+</a>
 </p>
 <h1 align="center">
   electron-gatsby-boilerplate
 </h1>
 
-Stop using monolithic config setups, start developing! This Repo will give you a Kick-Start with the help of Gatsby.
+<p align="center">
+  <a href="http://makeapullrequest.com">  
+      <img alt="Gatsby" src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
+  </a>
+</p>
 
-Kick off your project with this boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React as well as ElectronJs.
+**Stop using monolithic config setups, start developing! This Repo will give you a Kick-Start.**
 
-## 🚀 Quick start
+Kick off your project with this boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React as well as ElectronJS.
+
+## :mortar_board: Install
+
+Just use `npm install` or `yarn install`, it's your choice.
+
+## :tada: Usage
+
+To use this boilerplate you'll have to clone this repo and copy the files you need to your new project.
+You will find all informations in the files.
+
+- Use: `npm run develop` to start developing.
+- Use: `npm run build` to build.
+
+That's it!
+
+***Be aware that both processes use webpack to bundle the electron files before using them. Furthermore if you want to ship your final app, you should look into the `electron-builder` docs.***
+
+## :collision: Configuration
+
+- [GatsbyJS Docs](https://www.gatsbyjs.com/docs/api-files-gatsby-config/)
+- [ElectronJS Docs](https://www.gatsbyjs.com/docs/api-files-gatsby-config/)
+- [electron-builder Docs](https://www.electron.build/)
+- [webpack Docs](https://webpack.js.org/configuration/)
+
+
+## :star: contributing
+
+You want to help us, and join the Dream-bit Community?
+Great! Please make sure to check out and understand what is written in the following files:
+
+- CODE-OF-CONDUCT.md
+- CONTRIBUTING.md
+
+## :blush: About Dream-bit
+
+At dream-bit dreams become software!
+We encourage people to do good things with software and bring humanity forward.
+You can be a part of us by contributing or joining the community at https://dream-bit.de
+
+Develop software with your :heart: as your :brain:.
