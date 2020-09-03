@@ -3,7 +3,7 @@
   <img alt="Gatsby" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F91%2FElectron_Software_Framework_Logo.svg%2F1200px-Electron_Software_Framework_Logo.svg.png&f=1&nofb=1" width="35" />
 </a>
 <b style="font-size:1.5rem;">+</b>
-<a href="https://www.electronjs.org">
+<a href="https://www.gatsbyjs.com/">
   <img alt="Gatsby" src="https://camo.githubusercontent.com/c82d5dbe0efc4f71771b4c656fd96b91d6103a8d/68747470733a2f2f7777772e6761747362796a732e636f6d2f4761747362792d4d6f6e6f6772616d2e737667" width="35" />
 </a>
 </p>
